@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <!-- favicon -->
+        
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        
+        <title>
+            My art portfolio - Sree Chandana Madabhushi 
+        </title>
+
+        <style type="text/css">
+            body {
+                background-color: #383838;
+                overflow: hidden;
+            }
+            #pdfContainer iframe {
+                width: calc(100vw - 10px);
+                height: calc(100vh - 10px);
+            }
+            #pdfContainer embed {
+                width: calc(100vw - 10px);
+                height: calc(100vh - 10px);
+            }
+        </style>
+    </head>
+<body>
+    <div id="pdfContainer">
+        <iframe
+            title="pdf"
+            src="https://themadchan.github.io/Portfolio/Art%20Portfolio.pdf"
+            onerror="this.onerror=null;this.src='https://docs.google.com/gview?url=https://themadchan.github.io/Portfolio/Art%20Portfolio.pdf&embedded=true';"
+            frameborder="0"
+        ></iframe>
+    </div>
+</body>
